@@ -6,7 +6,7 @@ var hidden = new Button('Boo!');
 hidden.hide();
 var scr = new Text(score);                    // Create a text element
 
-createButton('gerald', btnPress); // Make a button
+
 changeTitle('Clicker Game');
 
 function btnPress() {
@@ -17,6 +17,9 @@ function btnPress() {
   }
   if(score > 15) {
     hidden.hide(500);
+  }
+  if(score > 20) {
+    hidden.show(500);
   }
 }
 createButton('Button', btnPress); // Make a button
