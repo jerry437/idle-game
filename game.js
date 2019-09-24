@@ -17,6 +17,8 @@ function btnPress() {
   }
   if(score > 15) {
     hidden.hide(500);
+  if(score > 25) {
+    hidden.hide(500);
   }
   if(score > 20) {
     hidden.show(500);
