@@ -2,7 +2,7 @@ var score = 1; // Create a variable to store the score in
 
 var title = new Title('Title!'); // Create a title element
 var button = new Button('collect Rocks', btnPress);   // Create a button element
-var hidden = new Button('collect stones');
+var hidden = new Button('collect stones ');
 hidden.hide();
 var scr = new Text(score);                    // Create a text element
 
