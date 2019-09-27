@@ -1,8 +1,8 @@
-var score = 1; // Create a variable to store the score in
+var score = 23; // Create a variable to store the score in
 
 var title = new Title('welcome to the jungle'); // Create a title element
 var button = new Button('collect wood', btnPress);   // Create a button element
-var hidden = new Button('collect wood');
+var hidden = new Button('set traps');
 hidden.hide();
 var scr = new Text(score);                    // Create a text element
 
